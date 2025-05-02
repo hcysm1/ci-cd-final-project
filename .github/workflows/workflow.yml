@@ -11,8 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: python:3.9-slim
+    container: python:3.9-slim
 
     steps:
       - name: Checkout
@@ -20,8 +19,8 @@ jobs:
 
       - name: Configure Git user
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "soniamubasher1991@gmail.com"
+          git config --global user.name "hcysm1"
 
       - name: Install dependencies
         run: |
